@@ -45,7 +45,7 @@ defmodule SmallUrl.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:postgrex, "~> 0.15.6"},
-      {:cachex, "~> 3.3"},
+      {:cachex, "~> 3.3"}
     ]
   end
 

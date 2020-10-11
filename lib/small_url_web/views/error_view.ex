@@ -19,15 +19,14 @@ defmodule SmallUrlWeb.ErrorView do
   end
 
   def render("400.json", _conn) do
-		%{code: 400, message: "invalid request"}
-	end
+    %{code: 400, message: "invalid request"}
+  end
 
-	def render("404.json", _conn) do
-		%{code: 404, message: "not found"}
-	end
+  def render("404.json", _conn) do
+    %{code: 404, message: "not found"}
+  end
 
-	def render("500.json", err) do
-		%{code: 500, message: "server error"}
-	end
-
+  def render("500.json", err) do
+    %{code: 500, message: "server error"}
+  end
 end

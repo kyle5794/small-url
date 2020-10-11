@@ -2,11 +2,11 @@ use Mix.Config
 
 # Configure your database
 config :small_url, SmallUrl.Repo,
-database: "small_url_dev",
-hostname: "localhost",
-show_sensitive_data_on_connection_error: true,
-pool_size: 10,
-migration_primary_key: [name: :id, type: :binary_id]
+  database: "small_url_dev",
+  hostname: "localhost",
+  show_sensitive_data_on_connection_error: true,
+  pool_size: 10,
+  migration_primary_key: [name: :id, type: :binary_id]
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
