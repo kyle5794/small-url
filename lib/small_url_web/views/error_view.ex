@@ -26,7 +26,7 @@ defmodule SmallUrlWeb.ErrorView do
     %{code: 404, message: "not found"}
   end
 
-  def render("500.json", err) do
+  def render("500.json", _err) do
     %{code: 500, message: "server error"}
   end
 end

@@ -38,7 +38,7 @@ defmodule SmallUrlWeb.LinkControllerTest do
   end
 
   test "get link by id", %{conn: conn} do
-    {:ok, l1} = Repo.insert(%Link{url: "https://www.twitch.tv/riotgames", hash_id: "omegalulz"})
+    {:ok, _l1} = Repo.insert(%Link{url: "https://www.twitch.tv/riotgames", hash_id: "omegalulz"})
     {:ok, l2} = Repo.insert(%Link{url: "https://www.twitch.tv/riotgames", hash_id: "omegalulz"})
 
     conn = get(conn, "/api/links/#{l2.id}")
