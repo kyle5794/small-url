@@ -1,6 +1,6 @@
 # SmallUrl
 
-A simple server to generate small url using phoenix, ecto, and Postgres
+A simple server to generate small url using phoenix, ecto, and Postgres run on free heroku dyno
 
 To start your Phoenix server:
 
